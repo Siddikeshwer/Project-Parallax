@@ -1,0 +1,17 @@
+runtime:
+  device: auto
+  depth_model: depth-anything/Depth-Anything-V2-Small-hf
+  yolo_model: yolo11n.pt
+stereo:
+  focal_length_px: 700.0
+  baseline_m: 0.12
+  min_disparity: 0
+  num_disparities: 128
+  block_size: 5
+fusion:
+  method: confidence
+  stereo_weight: 0.7
+  mono_weight: 0.3
+video:
+  inference_interval: 3
+  max_frames: 180

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+data/exports/
+data/sample/
+configs/calibration.json
+*.ply
+.pytest_cache/
