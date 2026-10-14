@@ -1,5 +1,4 @@
-# DepthForge
-
+# Project-Parallax
 A research-oriented companion dashboard and Python/Streamlit project for **Spatial AI — Monocular + Stereo Depth Fusion for 3D Scene Understanding**.
 
 - The React application in `src/` is the polished visual companion and workflow explorer.
